@@ -1,126 +1,69 @@
-# 💰 Sistema de Gestão de Orçamentos com Bubble e IA
-
-## 📝 Descrição do Projeto
-
-Este projeto consiste no desenvolvimento de uma aplicação web para gerenciamento de orçamentos utilizando a plataforma Bubble com apoio de Inteligência Artificial.
-
-O objetivo principal foi desenvolver um sistema capaz de organizar clientes, controlar orçamentos e gerenciar informações de forma estruturada e segura, aplicando conceitos fundamentais de engenharia de software.
-
-Embora a IA tenha sido utilizada para acelerar o desenvolvimento inicial da aplicação, toda a estrutura lógica, regras de negócio, workflows e mecanismos de segurança foram revisados e ajustados manualmente, demonstrando a importância do desenvolvedor no processo de validação e melhoria do sistema.
+# Nicolas Souza Costa
+> Estudante de Análise e Desenvolvimento de Sistemas
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+### 📫 Contato & Redes Sociais
 
-**Plataforma**
+[![instagram](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]([https://www.instagram.com/nikiinhell/)
+
+---
+
+### 👨‍💻 Sobre
+
+Atualmente cursando o **1º semestre de Análise e Desenvolvimento de Sistemas** na :contentReference[oaicite:0]{index=0}.
+
+Tenho interesse em tecnologia, desenvolvimento de sistemas e aprendizado contínuo na área de programação. Busco desenvolver conhecimentos práticos por meio de projetos acadêmicos, utilizando ferramentas e metodologias voltadas para criação de soluções digitais.
+
+**Habilidades Técnicas**
+- Python
+- GitHub
 - Bubble (No-Code)
 
-**Ferramentas**
-- Inteligência Artificial aplicada ao desenvolvimento
-- Modelagem de Dados
-- Workflows
-- Option Sets
-
-**Conceitos Aplicados**
-- Engenharia de Software
-- Arquitetura de Sistemas
-- Segurança da Informação
-- Privacy by Design
-- Banco de Dados Relacional
+**Habilidades Socioemocionais**
+- Trabalho em equipe
+- Comunicação
+- Organização
+- Pensamento crítico
+- Aprendizado contínuo
 
 ---
 
-## 🏗 Estrutura do Sistema
+### 🛠 Tecnologias e Ferramentas
 
-A aplicação foi construída utilizando uma arquitetura baseada em usuários autenticados:
+#### 💻 Linguagens
 
-### Relacionamentos:
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
-- Um usuário pode possuir vários clientes
-- Um cliente pode possuir vários orçamentos
-- Cada orçamento pertence a um único cliente
-- Cada orçamento pertence ao usuário criador
+#### ⚙️ Ferramentas
 
-Essa estrutura garante isolamento de dados entre usuários e evita acessos indevidos.
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
----
-
-## 📊 Modelagem de Dados
-
-### Usuário (User)
-
-Campos:
-
-- Nome
-- E-mail
-
-### Cliente
-
-Campos:
-
-- Nome
-- Telefone
-- E-mail
-- Criado_por
-
-### Orçamento
-
-Campos:
-
-- Título
-- Valor
-- Cliente
-- Status
-- Criado_por
-
-### Status do Orçamento (Option Set)
-
-- Pendente
-- Aprovado
-- Rejeitado
+![Bubble](https://img.shields.io/badge/Bubble-100BFF?style=for-the-badge)
 
 ---
 
-## 🔒 Segurança e Privacidade
+### 📂 Portfólio de Projetos
 
-Foram implementadas regras de privacidade seguindo o princípio de **Privacy by Design**.
-
-Medidas aplicadas:
-
-✔ Restrição de acesso por usuário
-
-✔ Remoção de permissões públicas
-
-✔ Isolamento de dados
-
-✔ Testes realizados em navegação anônima
+| Projeto | Descrição | Link |
+|:---|:---|:---:|
+| Sistema de Gestão de Orçamentos com Bubble e IA | Aplicação web desenvolvida utilizando Bubble e Inteligência Artificial com foco em modelagem de dados, workflows e segurança. | [Ver Projeto](./projeto-sistema-gestao-orcamentos-bubble/) |
 
 ---
 
-## 📚 Resultados e Aprendizados
+### 🏗 Estrutura do Repositório
 
-Durante o desenvolvimento deste projeto foi possível aplicar conhecimentos relacionados a:
+```text
+portfolio-nicolas-souza/
+│
+├── README.md
+│
+└── projeto-sistema-gestao-orcamentos-bubble/
+      ├── README.md
+      └── imagens/
+```
 
-- Modelagem de dados
-- Estruturação de workflows
-- Segurança da informação
-- Relacionamentos entre entidades
-- Organização de sistemas
-- Uso da Inteligência Artificial como apoio ao desenvolvimento
-
-Além do aprendizado técnico, o projeto demonstrou a importância da revisão humana para garantir qualidade, segurança e funcionamento adequado das aplicações.
-
----
-
-## 🔧 Possibilidades Futuras
-
-Como evolução do projeto, o sistema poderá ser migrado para tecnologias tradicionais como:
-
-- React
-- Node.js
-- APIs REST
-- Banco de dados SQL
-
----
+Este repositório reúne projetos acadêmicos, atividades práticas e experiências desenvolvidas ao longo da graduação.
 
 [Voltar ao início](../README.md)
+
