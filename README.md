@@ -3,12 +3,6 @@
 
 ---
 
-### 📫 Contato & Redes Sociais
-
-[![instagram]([https://www.instagram.com/nikiinhell/)
-
----
-
 ### 👨‍💻 Sobre
 
 Atualmente cursando o **1º semestre de Análise e Desenvolvimento de Sistemas** na :contentReference[oaicite:0]{index=0}.
